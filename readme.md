@@ -1,105 +1,101 @@
-<div align="center">
-<img src="https://imran.link/wp-content/uploads/2022/07/198247101_4154616517930631_8787934313978644937_n-825x315.jpg" align="center" height="" width="100%" />
-</div>  
+<h1 align="center">Hi, I'm Ali Imran 👋</h1>
 
-## Hey 👋, I'm ALI IMRAN!  
-  
+<p align="center">
+  <strong>Mobile & Web Developer · Full Cycle · Bangladesh</strong><br/>
+  Building polished iOS, Android & web apps for 10+ years
+</p>
 
-<a href="https://github.com/imran2w" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://twitter.com/imran2w" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/imran2w" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.facebook.com/imran2w" target="_blank">
-<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
-</a>  
-  
+<p align="center">
+  <a href="https://imran.link" target="_blank"><img src="https://img.shields.io/badge/Portfolio-imran.link-6366f1?style=flat-square&logo=google-chrome&logoColor=white" /></a>
+  <a href="https://blog.imran.link" target="_blank"><img src="https://img.shields.io/badge/Blog-blog.imran.link-6366f1?style=flat-square&logo=wordpress&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/imran2w" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-imran2w-0a66c2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/imran2w" target="_blank"><img src="https://img.shields.io/badge/Twitter-imran2w-1d9bf0?style=flat-square&logo=x&logoColor=white" /></a>
+  <a href="mailto:hello@imran.link"><img src="https://img.shields.io/badge/Email-hello@imran.link-ea4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+</p>
 
+---
 
+## About Me
 
-### Glad to see you here!  
-I am Ali Imran, working as an App Developer at a British software company, mostly on mobile/web application development with Java, Swift, and PHP.
+```json
+{
+  "name": "Ali Imran",
+  "role": "Full Cycle Developer",
+  "location": "Bangladesh",
+  "platforms": ["iOS", "Android", "Web"],
+  "experience": "10+ years",
+  "projects": "100+",
+  "loveToCode": true
+}
+```
 
-I enjoy building new things and maybe I am creating something new at this very moment.  
-  
+I'm a full-cycle developer specialising in mobile-first applications. I've shipped apps from concept to store listing and care deeply about clean architecture, accessible UI, and performance. Beyond writing code, I bridge the gap between development and infrastructure — configuring VPS environments, database architecture, and native mobile deployment.
 
-<br/>  
+- WordPress Plugin Developer since **2012**
+- Apps live on both the **App Store** and **Google Play**
+- Experienced in **Linux VPS** setup, configuration, and server administration
+- Currently exploring **AI & LLM APIs** in real-world applications
 
+---
 
-🔭 My primary expertise is in web/mobile application development.  
-  
+## Tech Stack
 
-🌱 I am a fast learner and I am always searching to learn something new and interesting.  
-  
+### Languages
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-❓ How to reach me: imran4dev@gmail.com.  
-  
+### Mobile
+![SwiftUI](https://img.shields.io/badge/SwiftUI-FA7343?style=flat-square&logo=swift&logoColor=white)
+![UIKit](https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white)
 
-⚡ Fun fact: I have no academic qualification in software development.  
-  
+### Web & Back-end
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-<br/>  
+### Tools & Infrastructure
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux_VPS-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
+---
 
-## Languages and Tools  
-<div align="center">  
-<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="75" /></a>  
-<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="75" /></a>  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="75" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="75" /></a>  
-<a href="https://www.php.net/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="75" /></a>  
-<a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="75" /></a>  
-<a href="https://www.nginx.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="75" /></a>  
-<a href="https://www.apachefriends.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/xampp.png" alt="XAMPP" height="75" /></a>  
-<a href="https://www.chartjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/logo-title.svg" alt="Chart.js" height="75" /></a>  
-<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="75" /></a>  
-<a href="https://firebase.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/firebase.png" alt="Firebase" height="75" /></a>  
-<a href="https://wordpress.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/wordpress.png" alt="WordPress" height="75" /></a>  
-<a href="https://mariadb.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mariadb.png" alt="Maria DB" height="75" /></a>  
-<a href="https://mui.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mui.png" alt="Material UI" height="75" /></a>  
-<a href="https://www.java.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="75" /></a>  
-<a href="https://jquery.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/jquery.png" alt="jQuery" height="75" /></a>  
-<a href="https://www.adobe.com/in/products/dreamweaver.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/adobedreamweaver.png" alt="Dreamweaver " height="75" /></a>  
-<a href="https://www.adobe.com/in/products/photoshop.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/photoshop-plain.svg" alt="Photoshop" height="75" /></a>  
-<a href="https://www.android.com/intl/en_in/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/android-original-wordmark.svg" alt="Android" height="75" /></a>  
-<a href="https://developer.apple.com/swift/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/swift-original-wordmark.svg" alt="Swift" height="75" /></a>  
-<a href="https://woocommerce.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/woocommerce.png" alt="WooCommerce" height="75" /></a>  
-<a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/adobe_illustrator-icon.svg" alt="Illustrator" height="75" /></a>  
-<a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="75" /></a>  
-<a href="https://docs.microsoft.com/en-us/powershell/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/powershell.png" alt="PowerShell" height="75" /></a>  
-</div>  
+## Industries I've Built For
 
-<br/>  
+| Domain | What I've Shipped |
+|---|---|
+| 🎓 **Education Technology** | eLearning platforms, school management systems, quiz & assessment apps |
+| 🍽️ **Restaurant & POS** | Point-of-sale systems, digital menus, kitchen display screens, delivery integrations |
+| 📅 **Booking & Reservation** | Appointment schedulers, hotel reservation systems, availability calendars |
+| 💳 **Financial Technology** | Budgeting apps, invoicing systems, payment gateway integrations, digital wallets |
+| 🛍️ **E-Commerce** | Custom stores, multi-vendor marketplaces, WooCommerce solutions |
+| 🕌 **Mosque & Charity** | Donation platforms, prayer time apps, mosque management systems |
 
+---
 
-## Github Stats  
-<table><tr><td valign="top" width="50%">
+## GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=imran2w&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 100%" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=imran2w&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imran2w&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</p>
 
-</td><td valign="top" width="50%">
+---
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imran2w&hide_border=true&layout=compact" align="left" style="width: 100%" />
+## Let's Work Together
 
-</td></tr></table>  
+I'm available for **freelance projects worldwide**. Whether you need a native iOS app, a cross-platform Flutter solution, a Laravel back-end, or a full-stack web application — let's build something great.
 
-<br/>  
-
-  
-
-<br/>  
-
-![Profile views counter](https://komarev.com/ghpvc/?username=imran2w&&style=flat-square)  
-  
-
-<br/>  
-
-
-<br />
-
-----
-<div align="center">Personal Website: <a href="https://imran.link/" target="_blank">imran.link</a></div>
+> 📬 Reach me at [hello@imran.link](mailto:hello@imran.link) or visit [imran.link](https://imran.link)
