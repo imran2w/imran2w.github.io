@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="https://imran.link/favicon.ico" />
+
+    <!-- ─── Primary SEO ───────────────────────────────── -->
+    <title>Ali Imran · Mobile &amp; Web Developer</title>
+    <meta name="description"
+        content="Ali Imran — Mobile &amp; Web App Developer with 10+ years of experience building polished iOS, Android, and web applications. Available for freelance projects worldwide." />
+    <meta name="keywords"
+        content="mobile developer, iOS developer, Android developer, web developer, Swift, Kotlin, Flutter, PHP, Laravel, WordPress, React, freelance developer, full-stack developer" />
+    <meta name="author" content="Ali Imran" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://imran.link/" />
+
+    <!-- ─── Open Graph (Facebook / LinkedIn) ────────── -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://imran.link/" />
+    <meta property="og:title" content="Ali Imran · Mobile &amp; Web Developer" />
+    <meta property="og:description"
+        content="Ali Imran — Mobile &amp; Web App Developer with 10+ years of experience building polished iOS, Android, and web applications. Available for freelance projects worldwide." />
+    <meta property="og:image" content="https://blog.imran.link/wp-content/uploads/2022/07/cropped-84182043_2804824476243182_3702453253024251904_n1.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ali Imran – Mobile &amp; Web Developer" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="imran.link" />
+
+    <!-- ─── Twitter / X Card ────────────────────────── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://imran.link/" />
+    <meta name="twitter:title" content="Ali Imran · Mobile &amp; Web Developer" />
+    <meta name="twitter:description"
+        content="Ali Imran — Mobile &amp; Web App Developer with 10+ years of experience building polished iOS, Android, and web applications. Available for freelance projects worldwide." />
+    <meta name="twitter:image" content="https://blog.imran.link/wp-content/uploads/2022/07/cropped-84182043_2804824476243182_3702453253024251904_n1.jpg" />
+    <meta name="twitter:image:alt" content="Ali Imran – Mobile &amp; Web Developer" />
+
+    <!-- ─── Schema.org JSON-LD ───────────────────────── -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ali Imran",
+          "url": "https://imran.link/",
+          "image": "https://blog.imran.link/wp-content/uploads/2022/07/cropped-84182043_2804824476243182_3702453253024251904_n1.jpg",
+          "sameAs": [
+            "https://github.com/imran2w",
+            "https://linkedin.com/in/imran2w",
+            "https://twitter.com/imran2w"
+          ],
+          "jobTitle": "Mobile & Web Developer",
+          "description": "Full-cycle developer specialising in iOS, Android, and web applications with 10+ years of professional experience.",
+          "knowsAbout": ["iOS Development", "Android Development", "Web Development", "PHP", "Laravel", "WordPress", "Swift", "Kotlin", "Flutter", "REST APIs", "MySQL", "Server Administration"],
+          "email": "hello@imran.link",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Remote"
+          }
+        }
+        </script>
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css?v=1.0" />
+</head>
+
+<body>
+
+    <!-- ═══════════════════════════════════════════
+         NAVBAR
+    ═══════════════════════════════════════════ -->
+    <nav id="mainNav" class="navbar sticky-top" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#hero">
+                <span class="brand-dot"></span>ALI IMRAN
+            </a>
+
+            <!-- Desktop nav (hidden below lg) -->
+            <ul class="navbar-nav d-none d-lg-flex flex-row gap-1 align-items-center">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item ms-2">
+                    <a class="btn btn-outline-primary btn-sm px-3" href="#contact">Get in touch</a>
+                </li>
+            </ul>
+
+            <!-- Hamburger (visible below lg) -->
+            <button class="navbar-toggler border-0 d-lg-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#sideMenu" aria-controls="sideMenu" aria-label="Open navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════ -->
+    <section id="hero" class="hero-section d-flex align-items-center">
+        <div class="container text-center py-5">
+            <div class="hero-avatar mx-auto mb-4">
+                <img src="https://blog.imran.link/wp-content/uploads/2022/07/cropped-84182043_2804824476243182_3702453253024251904_n1.jpg" alt="Ali Imran – Mobile &amp; Web Developer" />
+            </div>
+            <h1 class="display-4 fw-bold mb-3">
+                Hi, I'm <span class="text-gradient">Imran</span>
+            </h1>
+            <p class="lead text-secondary col-lg-7 mx-auto mb-4">
+                Mobile &amp; Web App Developer crafting polished experiences for iOS,
+                Android, and the modern web — from pixel-perfect UI to solid back-end APIs.
+            </p>
+            <div class="d-flex flex-wrap gap-3 justify-content-center">
+                <a href="#work" class="btn btn-primary btn-lg px-4">
+                    <i class="bi bi-grid-3x3-gap-fill me-2"></i>View Work
+                </a>
+                <a href="#contact" class="btn btn-outline-secondary btn-lg px-4">
+                    <i class="bi bi-envelope me-2"></i>Get in Touch
+                </a>
+            </div>
+
+            <div class="hero-stats d-flex flex-wrap justify-content-center gap-4 mt-5">
+                <div class="stat-item text-center">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label text-secondary">Years Exp.</div>
+                </div>
+                <div class="stat-divider d-none d-sm-block"></div>
+                <div class="stat-item text-center">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label text-secondary">Projects</div>
+                </div>
+                <div class="stat-divider d-none d-sm-block"></div>
+                <div class="stat-item text-center">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label text-secondary">Platforms</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         TRUST BAR
+    ═══════════════════════════════════════════ -->
+    <div class="trust-bar">
+        <div class="container">
+            <ul class="trust-bar__list">
+                <li class="trust-bar__item">
+                    <i class="bi bi-wordpress"></i>
+                    Plugin Developer Since 2012
+                </li>
+                <li class="trust-bar__divider" aria-hidden="true"></li>
+                <li class="trust-bar__item">
+                    <i class="bi bi-globe2"></i>
+                    10+ Years Professional Experience
+                </li>
+                <li class="trust-bar__divider" aria-hidden="true"></li>
+                <li class="trust-bar__item">
+                    <i class="bi bi-shield-lock"></i>
+                    Experience in Server Administration
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT
+    ═══════════════════════════════════════════ -->
+    <section id="about" class="py-6">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="about-card p-4 rounded-4">
+                        <div class="terminal-header d-flex align-items-center gap-2 mb-3">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                            <span class="text-secondary ms-2 small">developer.json</span>
+                        </div>
+                        <pre class="about-code mb-0"><code><span class="c-brace">{</span>
+  <span class="c-key">"name"</span>: <span class="c-str">"ALI IMRAN"</span>,
+  <span class="c-key">"role"</span>: <span class="c-str">"Full Cycle Developer"</span>,
+  <span class="c-key">"location"</span>: <span class="c-str">"Bangladesh"</span>,
+  <span class="c-key">"platforms"</span>: [
+    <span class="c-str">"iOS"</span>, <span class="c-str">"Android"</span>, <span class="c-str">"Web"</span>
+  ],
+  <span class="c-key">"loveToCode"</span>: <span class="c-bool">true</span>
+<span class="c-brace">}</span></code></pre>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <p class="section-eyebrow">About Me</p>
+                    <h2 class="h1 fw-bold mb-4">
+                        Building apps that<br class="d-block d-md-none" />
+                        <span class="text-gradient">people love to use</span>
+                    </h2>
+                    <p class="text-secondary mb-3">
+                        I'm a full-cycle developer specialising in mobile-first applications.
+                        With over 10 years of professional experience, I've shipped apps from
+                        concept to store listing. I care deeply about clean architecture, accessible UI, and performance.
+                    </p>
+                    <p class="text-secondary mb-4">
+                        Beyond writing code, I bridge the gap between development and infrastructure. With extensive experience in configuring servers and managing hosting environments, I ensure that applications are not only well-built but also securely deployed and optimized for high performance. My expertise covers the full lifecycle—from database architecture in MySQL to server-side troubleshooting and native mobile deployment.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="pill-tag"><i class="bi bi-phone me-1"></i>iOS &amp; Android</span>
+                        <span class="pill-tag"><i class="bi bi-globe2 me-1"></i>Web Apps</span>
+                        <span class="pill-tag"><i class="bi bi-server me-1"></i>REST APIs</span>
+                        <span class="pill-tag"><i class="bi bi-palette me-1"></i>UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PORTFOLIO
+    ═══════════════════════════════════════════ -->
+    <section id="work" class="py-6 section-alt">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <p class="section-eyebrow">Portfolio</p>
+                <h2 class="h1 fw-bold">Industries I've Built For</h2>
+                <p class="text-secondary col-md-6 mx-auto">
+                    Delivering tailored mobile and web solutions across diverse sectors — from
+                    eLearning platforms to fintech apps and community tools.
+                </p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="projectGrid">
+
+                <!-- Healthcare & Clinic Management -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--health mb-3">
+                                <i class="bi bi-hospital-fill"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Healthcare &amp; Clinic Management</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Dental clinic and hospital management systems, diagnostic centre
+                                portals, patient records, appointment scheduling, billing,
+                                and lab report management for healthcare providers.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">iOS &amp; Android</span>
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">PHP</span>
+                                <span class="badge text-bg-secondary">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Technology -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--edu mb-3">
+                                <i class="bi bi-mortarboard-fill"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Education Technology</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                eLearning platforms, school management systems, student portals,
+                                quiz &amp; assessment apps, and interactive course builders for
+                                institutions and online educators.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">iOS &amp; Android</span>
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant & POS -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--pos mb-3">
+                                <i class="bi bi-shop-window"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Restaurant &amp; POS</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Point-of-sale systems, digital menu management, kitchen display
+                                screens, table ordering apps, and delivery integrations for
+                                restaurants and food businesses.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">iOS &amp; Android</span>
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">Payment APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking & Reservation -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--booking mb-3">
+                                <i class="bi bi-calendar-check-fill"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Booking &amp; Reservation</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Appointment schedulers, hotel and table reservation systems,
+                                service booking platforms, and availability calendars with
+                                real-time notifications and payment integration.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">iOS &amp; Android</span>
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Financial Technology -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--fintech mb-3">
+                                <i class="bi bi-graph-up-arrow"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Financial Technology</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Budgeting and expense tracking apps, invoicing systems, payment
+                                gateway integrations, digital wallets, and financial dashboards
+                                with secure data handling.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">iOS &amp; Android</span>
+                                <span class="badge text-bg-secondary">PHP</span>
+                                <span class="badge text-bg-secondary">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-Commerce -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--ecom mb-3">
+                                <i class="bi bi-bag-fill"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">E-Commerce</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Custom online stores, product catalogue apps, multi-vendor
+                                marketplaces, inventory management, and shopping experiences
+                                optimised for conversion on web and mobile.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">WooCommerce</span>
+                                <span class="badge text-bg-secondary">PHP</span>
+                                <span class="badge text-bg-secondary">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mosque & Charity -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--charity mb-3">
+                                <i class="bi bi-heart-fill"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Mosque &amp; Charity</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Donation platforms, prayer time, Qiblah and Azan apps, mosque
+                                management systems, event announcements, and community
+                                engagement tools for Islamic centres and non-profits.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">iOS &amp; Android</span>
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">Donations API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book & Reading -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--book mb-3">
+                                <i class="bi bi-book-fill"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Book &amp; Reading</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Digital library and e-book reader apps,
+                                reading progress trackers, bookstore catalogues, and
+                                offline-capable reading experiences for iOS, Android, and web.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">iOS &amp; Android</span>
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">PHP</span>
+                                <span class="badge text-bg-secondary">REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Marriage Media -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--marriage mb-3">
+                                <i class="bi bi-suit-heart-fill"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Marriage Media</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Matrimonial platforms and matchmaking apps with advanced
+                                profile filtering, privacy controls, guardian messaging,
+                                and verified biodata management for web and mobile.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">iOS &amp; Android</span>
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">PHP</span>
+                                <span class="badge text-bg-secondary">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News Portals -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--news mb-3">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">News &amp; Media</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Full-featured online news portals and media websites and apps with
+                                category management, breaking news alerts, journalist dashboards,
+                                ad integration, and SEO-optimised article publishing.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">iOS &amp; Android</span>
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">WordPress</span>
+                                <span class="badge text-bg-secondary">PHP</span>
+                                <span class="badge text-bg-secondary">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professionals -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--professional mb-3">
+                                <i class="bi bi-briefcase-fill"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Professional Websites</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Personal branding and portfolio sites for doctors, lawyers,
+                                consultants, and other professionals — with appointment
+                                booking, service showcases, and testimonial management.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">WordPress</span>
+                                <span class="badge text-bg-secondary">PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Politicians -->
+                <div class="col">
+                    <div class="card h-100 card-project card-category">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="category-icon-wrap category-icon--politics mb-3">
+                                <i class="bi bi-megaphone-fill"></i>
+                            </div>
+                            <h5 class="card-title fw-semibold mb-2">Political Websites</h5>
+                            <p class="card-text text-secondary small mb-3">
+                                Campaign and constituency websites for politicians and
+                                political parties — featuring news updates, event listings,
+                                volunteer sign-up, donation integration, and media galleries.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mt-auto">
+                                <span class="badge text-bg-secondary">Web</span>
+                                <span class="badge text-bg-secondary">WordPress</span>
+                                <span class="badge text-bg-secondary">PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /row -->
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SKILLS
+    ═══════════════════════════════════════════ -->
+    <section id="skills" class="py-6">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <p class="section-eyebrow">Expertise</p>
+                <h2 class="h1 fw-bold">Technical Skills</h2>
+            </div>
+
+            <div class="row g-4 row-skills">
+
+                <!-- Languages -->
+                <div class="col-md-6 col-skill">
+                    <div class="skill-group h-100 p-4 rounded-4">
+                        <div class="skill-icon mb-3">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h5 class="fw-semibold mb-3">Languages</h5>
+                        <ul class="list-unstyled skill-list">
+                            <li><span class="skill-dot"></span>PHP</li>
+                            <li><span class="skill-dot"></span>JavaScript</li>
+                            <li><span class="skill-dot"></span>Java</li>
+                            <li><span class="skill-dot"></span>Swift</li>
+                            <li><span class="skill-dot"></span>Kotlin</li>
+                            <li><span class="skill-dot"></span>Dart</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Mobile -->
+                <div class="col-md-6 col-skill">
+                    <div class="skill-group h-100 p-4 rounded-4">
+                        <div class="skill-icon skill-icon--mobile mb-3">
+                            <i class="bi bi-phone-fill"></i>
+                        </div>
+                        <h5 class="fw-semibold mb-3">Mobile</h5>
+                        <ul class="list-unstyled skill-list">
+                            <li><span class="skill-dot skill-dot--mobile"></span>SwiftUI &amp; UIKit</li>
+                            <li><span class="skill-dot skill-dot--mobile"></span>Flutter</li>
+                            <li><span class="skill-dot skill-dot--mobile"></span>Xcode</li>
+                            <li><span class="skill-dot skill-dot--mobile"></span>Android Studio</li>
+                            <li><span class="skill-dot skill-dot--mobile"></span>App Store Connect</li>
+                            <li><span class="skill-dot skill-dot--mobile"></span>Google Play Console</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Web & Back-end -->
+                <div class="col-md-6 col-skill">
+                    <div class="skill-group h-100 p-4 rounded-4">
+                        <div class="skill-icon skill-icon--web mb-3">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <h5 class="fw-semibold mb-3">Web &amp; Back-end</h5>
+                        <ul class="list-unstyled skill-list">
+                            <li><span class="skill-dot skill-dot--web"></span>HTML5 & CSS3</li>
+                            <li><span class="skill-dot skill-dot--web"></span>Bootstrap 5</li>
+                            <li><span class="skill-dot skill-dot--web"></span>jQuery</li>
+                            <li><span class="skill-dot skill-dot--web"></span>WordPress / Laravel</li>
+                            <li><span class="skill-dot skill-dot--web"></span>REST API</li>
+                            <li><span class="skill-dot skill-dot--web"></span>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tools & DevOps -->
+                <div class="col-md-6 col-skill">
+                    <div class="skill-group h-100 p-4 rounded-4">
+                        <div class="skill-icon skill-icon--tools mb-3">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <h5 class="fw-semibold mb-3">Tools &amp; DevOps</h5>
+                        <ul class="list-unstyled skill-list">
+                            <li><span class="skill-dot skill-dot--tools"></span>Git / GitHub</li>
+                            <li><span class="skill-dot skill-dot--tools"></span>Docker</li>
+                            <li><span class="skill-dot skill-dot--tools"></span>CI/CD (GitHub Actions)</li>
+                            <li><span class="skill-dot skill-dot--tools"></span>Firebase</li>
+                            <li><span class="skill-dot skill-dot--tools"></span>Cloudflare</li>
+                            <li><span class="skill-dot skill-dot--tools"></span>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- AI & Machine Learning -->
+                <div class="col-md-6 col-skill">
+                    <div class="skill-group skill-group--ai h-100 p-4 rounded-4">
+                        <div class="skill-icon skill-icon--ai mb-3">
+                            <i class="bi bi-cpu"></i>
+                        </div>
+                        <h5 class="fw-semibold mb-3 d-flex align-items-center gap-2">
+                            AI &amp; ML
+                            <span class="badge rounded-pill ai-new-badge">New</span>
+                        </h5>
+                        <ul class="list-unstyled skill-list">
+                            <li><span class="skill-dot skill-dot--ai"></span>Smart Automation</li>
+                            <li><span class="skill-dot skill-dot--ai"></span>Implementing LLM APIs</li>
+                            <li><span class="skill-dot skill-dot--ai"></span>AI-Assisted Engineering</li>
+                            <li><span class="skill-dot skill-dot--ai"></span>Prompt Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Server & Infrastructure (highlighted) -->
+                <div class="col-12">
+                    <div class="skill-group skill-group--server p-4 rounded-4">
+                        <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+                            <div class="skill-icon skill-icon--server">
+                                <i class="bi bi-hdd-rack"></i>
+                            </div>
+                            <h5 class="fw-semibold mb-0">Server &amp; Infrastructure</h5>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-sm-6 col-md-3">
+                                <div class="server-skill-item">
+                                    <i class="bi bi-terminal-fill"></i>
+                                    <div>
+                                        <div class="server-skill-title">Server Administration</div>
+                                        <div class="server-skill-desc">Linux server setup, configuration, and management.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="server-skill-item">
+                                    <i class="bi bi-diagram-3"></i>
+                                    <div>
+                                        <div class="server-skill-title">Infrastructure Management</div>
+                                        <div class="server-skill-desc">Managing hosting environments and dedicated servers.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="server-skill-item">
+                                    <i class="bi bi-speedometer2"></i>
+                                    <div>
+                                        <div class="server-skill-title">System Optimization</div>
+                                        <div class="server-skill-desc">Server-side troubleshooting and performance tuning.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="server-skill-item">
+                                    <i class="bi bi-shield-lock-fill"></i>
+                                    <div>
+                                        <div class="server-skill-title">Security &amp; Hardening</div>
+                                        <div class="server-skill-desc">SSL/TLS setup, firewall configuration, and securing web servers against common threats.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /row -->
+
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         BLOG
+    ═══════════════════════════════════════════ -->
+    <section id="blog" class="py-6 section-alt">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <p class="section-eyebrow">Blog</p>
+                <h2 class="h1 fw-bold">Latest Articles</h2>
+                <p class="text-secondary col-md-6 mx-auto">
+                    Personal blog, thoughts on mobile development, web technology, and the craft of building software.
+                </p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="blogGrid">
+                <!-- Posts injected by JS -->
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="https://blog.imran.link/" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-outline-secondary px-4" id="blogViewAll">
+                    View All Posts <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CONTACT / FOOTER
+    ═══════════════════════════════════════════ -->
+    <footer id="contact" class="footer-section py-6 section-alt">
+        <div class="container">
+            <!-- Section heading -->
+            <div class="text-center mb-5">
+                <p class="section-eyebrow">Contact</p>
+                <h2 class="h1 fw-bold mb-2">
+                    Got something
+                    <span class="text-gradient">to say?</span>
+                </h2>
+                <p class="text-secondary col-md-6 mx-auto">
+                    Available for interesting collaborations.
+                </p>
+            </div>
+
+            <!-- Two-column: info + form -->
+            <div class="row g-5 justify-content-center mb-5">
+
+                <!-- Left: contact info -->
+                <div class="col-lg-4">
+                    <div class="contact-info-card h-100 p-4 rounded-4">
+                        <h5 class="fw-semibold mb-4">Get in touch</h5>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="contact-icon-wrap">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div>
+                                <div class="small text-secondary mb-1">Email</div>
+                                <a href="mailto:hello@imran.link" class="text-white text-decoration-none fw-medium">
+                                    hello@imran.link
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="contact-icon-wrap">
+                                <i class="bi bi-whatsapp"></i>
+                            </div>
+                            <div>
+                                <div class="small text-secondary mb-1">WhatsApp</div>
+                                <a href="https://wa.me/+8801731498889" class="text-white text-decoration-none fw-medium">
+                                    +880 1731 498 889
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="contact-icon-wrap">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div>
+                                <div class="small text-secondary mb-1">Location</div>
+                                <span class="fw-medium">Bangladesh</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="contact-icon-wrap">
+                                <i class="bi bi-clock-fill"></i>
+                            </div>
+                            <div>
+                                <div class="small text-secondary mb-1">Response time</div>
+                                <span class="fw-medium">Within 24 hours</span>
+                            </div>
+                        </div>
+
+                        <!--<div class="d-flex gap-3">
+                            <div class="contact-icon-wrap">
+                                <i class="bi bi-calendar2-check-fill"></i>
+                            </div>
+                            <div>
+                                <div class="small text-secondary mb-1">Availability</div>
+                                <span class="fw-medium text-warning">Freelance &amp; side projects</span>
+                            </div>
+                        </div>-->
+
+                        <hr class="border-secondary opacity-25 my-4" />
+
+                        <div class="d-flex flex-wrap gap-2">
+                            <a href="https://github.com/imran2w" target="_blank" rel="noopener noreferrer" class="social-link"
+                                aria-label="GitHub"><i class="bi bi-github"></i></a>
+                            <a href="https://linkedin.com/in/imran2w" target="_blank" rel="noopener noreferrer" class="social-link"
+                                aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://twitter.com/imran2w" target="_blank" rel="noopener noreferrer" class="social-link"
+                                aria-label="Twitter / X"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://dribbble.com/imran2w" target="_blank" rel="noopener noreferrer" class="social-link"
+                                aria-label="Dribbble"><i class="bi bi-dribbble"></i></a>
+                            <a href="https://stackoverflow.com/users/32717015/ali-imran" target="_blank" rel="noopener noreferrer"
+                                class="social-link" aria-label="Stack Overflow"><i class="bi bi-stack-overflow"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: contact form -->
+                <div class="col-lg-7">
+                    <form id="contactForm" class="contact-form p-4 p-md-5 rounded-4" novalidate>
+                        <div class="row g-3">
+
+                            <!-- Name -->
+                            <div class="col-sm-6">
+                                <label for="cf-name" class="form-label">Full Name <span
+                                        class="text-danger">*</span></label>
+                                <div class="input-group">
+                                    <span class="input-group-text contact-input-icon"><i
+                                            class="bi bi-person"></i></span>
+                                    <input type="text" id="cf-name" name="name" class="form-control contact-input"
+                                        placeholder="John Smith" required minlength="2" autocomplete="name" />
+                                    <div class="invalid-feedback">Please enter your name.</div>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="col-sm-6">
+                                <label for="cf-email" class="form-label">Email Address <span
+                                        class="text-danger">*</span></label>
+                                <div class="input-group">
+                                    <span class="input-group-text contact-input-icon"><i
+                                            class="bi bi-envelope"></i></span>
+                                    <input type="email" id="cf-email" name="email" class="form-control contact-input"
+                                        placeholder="john@example.com" required autocomplete="email" />
+                                    <div class="invalid-feedback">Please enter a valid email.</div>
+                                </div>
+                            </div>
+
+                            <!-- Subject -->
+                            <div class="col-12">
+                                <label for="cf-subject" class="form-label">Subject <span
+                                        class="text-danger">*</span></label>
+                                <div class="input-group">
+                                    <span class="input-group-text contact-input-icon"><i
+                                            class="bi bi-chat-square-text"></i></span>
+                                    <input type="text" id="cf-subject" name="subject" class="form-control contact-input"
+                                        placeholder="Project inquiry, collaboration…" required minlength="3" />
+                                    <div class="invalid-feedback">Please enter a subject.</div>
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="col-12">
+                                <label for="cf-message" class="form-label">Message <span
+                                        class="text-danger">*</span></label>
+                                <textarea id="cf-message" name="message" class="form-control contact-input" rows="5"
+                                    placeholder="Tell me about your project, timeline, and any specific requirements…"
+                                    required minlength="20"></textarea>
+                                <div class="invalid-feedback">Please write at least 20 characters.</div>
+                                <div class="form-text text-end">
+                                    <span id="cf-char-count">0</span> / 1000
+                                </div>
+                            </div>
+
+                            <!-- Submit -->
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg w-100" id="cf-submit">
+                                    <span class="cf-btn-text"><i class="bi bi-send-fill me-2"></i>Send Message</span>
+                                    <span class="cf-btn-loading d-none">
+                                        <span class="spinner-border spinner-border-sm me-2" role="status"
+                                            aria-hidden="true"></span>
+                                        Sending…
+                                    </span>
+                                </button>
+                            </div>
+
+                        </div><!-- /row -->
+                    </form>
+
+                    <!-- Success toast -->
+                    <div id="cf-success" class="cf-success-msg d-none mt-3 p-4 rounded-4 text-center">
+                        <i class="bi bi-check-circle-fill text-success fs-1 mb-3 d-block"></i>
+                        <h5 class="fw-semibold mb-1">Message sent!</h5>
+                        <p class="text-secondary mb-3">Thanks for reaching out. I'll get back to you within 24 hours.
+                        </p>
+                        <button class="btn btn-outline-secondary btn-sm" id="cf-reset">Send another</button>
+                    </div>
+
+                </div>
+            </div><!-- /row -->
+
+            <hr class="border-secondary opacity-25" />
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2 pt-3">
+                <span class="text-secondary small">
+                    &copy; <span id="year"></span> Ali Imran · Mobile &amp; Web Developer
+                </span>
+                <span class="text-secondary small">
+                    Built with <i class="bi bi-heart-fill text-danger"></i> using Bootstrap 5.3
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scrollTop" class="btn btn-primary btn-sm scroll-top-btn" aria-label="Scroll to top" title="Back to top">
+        <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <!-- ═══════════════════════════════════════════
+         OFFCANVAS SIDE MENU (must be direct child of body)
+    ═══════════════════════════════════════════ -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="sideMenu" aria-labelledby="sideMenuLabel">
+        <div class="offcanvas-header border-bottom border-secondary border-opacity-25 pb-3">
+            <a class="navbar-brand fw-bold" href="#hero" id="sideMenuLabel">
+                <span class="brand-dot"></span>ALI IMRAN
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body d-flex flex-column">
+            <!-- Nav links -->
+            <nav class="side-nav flex-grow-1">
+                <a class="side-nav-link" href="#about">
+                    <i class="bi bi-person"></i>About
+                </a>
+                <a class="side-nav-link" href="#work">
+                    <i class="bi bi-grid-3x3-gap"></i>Work
+                </a>
+                <a class="side-nav-link" href="#skills">
+                    <i class="bi bi-code-slash"></i>Skills
+                </a>
+                <a class="side-nav-link" href="#blog">
+                    <i class="bi bi-pencil-square"></i>Blog
+                </a>
+                <a class="side-nav-link" href="#contact">
+                    <i class="bi bi-envelope"></i>Contact
+                </a>
+            </nav>
+
+            <!-- CTA at bottom -->
+            <div class="mt-auto pt-4 border-top border-secondary border-opacity-25">
+                <a href="#contact" class="side-nav-cta btn btn-primary w-100 mb-3">
+                    <i class="bi bi-send me-2"></i>Get in touch
+                </a>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="https://github.com/imran2w" target="_blank" rel="noopener noreferrer" class="social-link"
+                        aria-label="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="https://linkedin.com/in/imran2w" target="_blank" rel="noopener noreferrer" class="social-link"
+                        aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://twitter.com/imran2w" target="_blank" rel="noopener noreferrer" class="social-link"
+                        aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
