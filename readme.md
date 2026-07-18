@@ -1,7 +1,7 @@
 <h1 align="center">Ali Imran</h1>
 
 <p align="center">
-  <strong>Mobile &amp; Web Developer</strong><br/>
+  <strong>Full-Cycle Software Engineer</strong><br/>
   10+ years building polished iOS, Android, and web applications
 </p>
 
@@ -27,7 +27,7 @@
 }
 ```
 
-I am a full-cycle developer specialising in mobile-first applications. With over 10 years of professional experience, I have shipped products from concept to store listing and care deeply about clean architecture, accessible UI, and performance.
+I am a full-cycle software engineer specialising in mobile-first applications. With over 10 years of professional experience, I have shipped products from concept to store listing and care deeply about clean architecture, accessible UI, and performance.
 
 Beyond coding, I work across infrastructure and deployment: server setup, hosting management, MySQL-backed architecture, troubleshooting, and production optimization.
 
