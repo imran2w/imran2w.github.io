@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Full-Cycle Software Engineer</strong><br/>
-  10+ years building polished iOS, Android, and web applications
+  10+ years building polished iOS, Android, and Web applications
 </p>
 
 <p align="center">
