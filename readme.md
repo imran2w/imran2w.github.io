@@ -20,10 +20,10 @@
 ```json
 {
   "name": "Ali Imran",
-  "role": "Full Cycle Developer",
+  "role": "Full-Cycle Software Engineer",
   "location": "Bangladesh",
   "platforms": ["iOS", "Android", "Web"],
-  "loveToCode": true
+  "openToWork": false
 }
 ```
 
