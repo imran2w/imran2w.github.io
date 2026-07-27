@@ -17,16 +17,6 @@
 
 ## About
 
-```json
-{
-  "name": "Ali Imran",
-  "role": "Full-Cycle Software Engineer",
-  "location": "Bangladesh",
-  "platforms": ["iOS", "Android", "Web"],
-  "openToWork": false
-}
-```
-
 I am a full-cycle software engineer specialising in mobile-first applications. With over 10 years of professional experience, I have shipped products from concept to store listing and care deeply about clean architecture, accessible UI, and performance.
 
 Beyond coding, I work across infrastructure and deployment: server setup, hosting management, MySQL-backed architecture, troubleshooting, and production optimization.
