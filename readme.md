@@ -77,25 +77,6 @@ Linux server administration, infrastructure management, performance tuning, SSL/
 
 ---
 
-## This Repository
-
-Source code for my personal site at [imran.link](https://imran.link).
-
-### Project Structure
-
-```text
-.
-|- index.html
-|- css/
-|  |- style.css
-|- js/
-|  |- main.js
-|- img/
-|- CNAME
-```
-
----
-
 ## Contact
 
 - Email: [hello@imran.link](mailto:hello@imran.link)
