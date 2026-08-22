@@ -5,25 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="shortcut icon" href="https://imran.link/favicon.ico" />
     <title>Lectures · MSc in CSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-    <div class="container py-4 py-md-5">
-        <div class="text-center mb-4 mb-md-5">
-            <h1 class="fw-bold">MSc in CSE</h1>
-            <p class="text-muted">Lecture Slides &amp; Materials - 1st Semester</p>
+    <header class="hero text-center">
+        <div class="container py-5">
+            <span class="hero-badge mb-3">Professional Master's in Computer Science &amp; Engineering</span>
+            <h1 class="fw-800 mb-2">Lecture Library</h1>
+            <p class="hero-subtitle mb-0">Slides &amp; materials — 1st Semester</p>
         </div>
-        <div class="mb-4">
-            <input type="text" id="searchBox" class="form-control form-control-lg shadow-sm" placeholder="Search by subject, topic or lecture title..." />
+    </header>
+
+    <main class="container content-container">
+        <div class="search-wrap mb-4">
+            <i class="bi bi-search search-icon"></i>
+            <input type="text" id="searchBox" class="form-control form-control-lg search-input" placeholder="Search by subject, topic or lecture title..." />
         </div>
-        <div id="subjectsContainer" class="accordion shadow-sm"></div>
-        <p id="noResults" class="text-center text-muted mt-4 d-none">No lectures found.</p>
-    </div>
+        <div id="subjectsContainer" class="d-flex flex-column gap-3"></div>
+        <div id="noResults" class="text-center text-muted py-5 d-none">
+            <i class="bi bi-emoji-frown fs-1 d-block mb-2"></i>
+            No lectures found.
+        </div>
+    </main>
+
+    <footer class="text-center py-4 text-muted small">
+        &copy; <span id="year"></span> <a href="https://imran.link" rel="noopener noreferrer">Ali Imran</a>.
+    </footer>
 
     <script src="scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

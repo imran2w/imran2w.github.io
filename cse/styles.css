@@ -1,7 +1,203 @@
-body { background-color: #f5f7fa; }
-.subject-header { cursor: pointer; }
-.file-icon.pdf { color: #dc3545; }
-.file-icon.pptx { color: #d24726; }
-.file-icon.doc, .file-icon.docx { color: #2b579a; }
-.list-group-item:hover { background-color: #f0f4ff; }
-.subject-code-badge { font-size: 0.8rem; }
+:root {
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --surface: #ffffff;
+    --bg: #f4f6fb;
+    --text-muted: #6b7280;
+}
+
+* { font-family: 'Inter', sans-serif; }
+
+body {
+    background-color: var(--bg);
+    color: #1f2937;
+}
+
+.fw-800 { font-weight: 800; }
+
+.hero {
+    background: linear-gradient(135deg, var(--primary) 0%, #8b5cf6 50%, #ec4899 100%);
+    color: #fff;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+}
+
+.hero-subtitle {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+}
+
+.content-container {
+    margin-top: -1.5rem;
+    padding-bottom: 3rem;
+}
+
+.search-wrap {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 1.25rem;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+.search-input {
+    padding-left: 3rem;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0 10px 30px rgba(31, 41, 55, 0.08);
+}
+
+.search-input:focus {
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.25);
+}
+
+.subject-card {
+    background: var(--surface);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(31, 41, 55, 0.06);
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+}
+
+.subject-card:hover {
+    box-shadow: 0 8px 24px rgba(31, 41, 55, 0.1);
+}
+
+.subject-header {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    width: 100%;
+    padding: 1.1rem 1.4rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.subject-avatar {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--primary), #ec4899);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.subject-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.subject-code-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.3rem 0.6rem;
+    border-radius: 999px;
+    background: #eef2ff;
+    color: var(--primary-dark);
+}
+
+.subject-count-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.3rem 0.6rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: var(--text-muted);
+}
+
+.chevron {
+    margin-left: auto;
+    transition: transform 0.2s ease;
+    color: var(--text-muted);
+}
+
+.subject-header[aria-expanded="true"] .chevron {
+    transform: rotate(180deg);
+}
+
+.file-list {
+    border-top: 1px solid #f1f2f6;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 0.85rem 1.4rem;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.file-item:hover {
+    background-color: #f7f8ff;
+    transform: translateX(2px);
+    color: inherit;
+}
+
+.file-item + .file-item {
+    border-top: 1px solid #f5f5f7;
+}
+
+.file-icon-wrap {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 1.15rem;
+}
+
+.file-icon-wrap.pdf { background: #fef2f2; color: #dc3545; }
+.file-icon-wrap.pptx, .file-icon-wrap.ppt { background: #fff2ea; color: #d24726; }
+.file-icon-wrap.doc, .file-icon-wrap.docx { background: #eef2ff; color: #2b579a; }
+
+.file-title {
+    font-weight: 600;
+}
+
+.file-topic {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.file-type-badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    background: #f3f4f6;
+    color: var(--text-muted);
+    letter-spacing: 0.03em;
+}
+
+.file-open-icon {
+    color: #c7cad1;
+}

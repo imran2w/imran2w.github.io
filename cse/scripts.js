@@ -123,6 +123,22 @@ const iconFor = (type) => {
     return 'bi-file-earmark-fill';
 };
 
+const subjectIcons = [
+    { keywords: ['digital', 'logic', 'circuit'], icon: 'bi-cpu-fill' },
+    { keywords: ['computer system', 'hardware'], icon: 'bi-pc-display-horizontal' },
+    { keywords: ['network'], icon: 'bi-hdd-network-fill' },
+    { keywords: ['database', 'data'], icon: 'bi-database-fill' },
+    { keywords: ['algorithm', 'programming', 'software'], icon: 'bi-code-slash' },
+    { keywords: ['security', 'crypto'], icon: 'bi-shield-lock-fill' },
+    { keywords: ['math', 'statistic'], icon: 'bi-calculator-fill' }
+];
+
+const iconForSubject = (subjectName) => {
+    const name = (subjectName || '').toLowerCase();
+    const match = subjectIcons.find(({ keywords }) => keywords.some(k => name.includes(k)));
+    return match ? match.icon : 'bi-mortarboard-fill';
+};
+
 function render(filter = '') {
     const container = document.getElementById('subjectsContainer');
     const noResults = document.getElementById('noResults');
@@ -146,32 +162,33 @@ function render(filter = '') {
         const isExpanded = term.length > 0;
 
         const itemHtml = `
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="${headingId}">
-                    <button class="accordion-button subject-header ${isExpanded ? '' : 'collapsed'}" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#${collapseId}"
-                        aria-expanded="${isExpanded}" aria-controls="${collapseId}">
-                        <span class="fw-semibold">${subject.subject}</span>
-                        <span class="badge bg-secondary ms-2 subject-code-badge">${subject.code}</span>
-                        <span class="badge bg-light text-dark ms-2 subject-code-badge">${matchedFiles.length} lecture${matchedFiles.length !== 1 ? 's' : ''}</span>
-                    </button>
-                </h2>
-                <div id="${collapseId}" class="accordion-collapse collapse ${isExpanded ? 'show' : ''}" aria-labelledby="${headingId}">
-                    <div class="accordion-body p-0">
-                        <div class="list-group list-group-flush">
-                            ${matchedFiles.map(f => `
-                                <a href="${f.link}" target="_blank" rel="noopener noreferrer"
-                                    class="list-group-item list-group-item-action d-flex align-items-center gap-3">
-                                    <i class="bi ${iconFor(f.file_type)} file-icon ${(f.file_type || '').toLowerCase()} fs-4"></i>
-                                    <span class="flex-grow-1">
-                                        <span class="fw-semibold">${f.title}</span>
-                                        <span class="text-muted"> — ${f.topic}</span>
-                                    </span>
-                                    <span class="badge bg-light text-dark text-uppercase">${f.file_type}</span>
-                                    <i class="bi bi-box-arrow-up-right text-muted"></i>
-                                </a>
-                            `).join('')}
-                        </div>
+            <div class="subject-card">
+                <button class="subject-header" type="button" id="${headingId}"
+                    data-bs-toggle="collapse" data-bs-target="#${collapseId}"
+                    aria-expanded="${isExpanded}" aria-controls="${collapseId}">
+                    <span class="subject-avatar"><i class="bi ${iconForSubject(subject.subject)}"></i></span>
+                    <span>
+                        <span class="subject-title d-block">${subject.subject}</span>
+                        <span class="subject-code-badge me-1">${subject.code}</span>
+                        <span class="subject-count-badge">${matchedFiles.length} lecture${matchedFiles.length !== 1 ? 's' : ''}</span>
+                    </span>
+                    <i class="bi bi-chevron-down chevron"></i>
+                </button>
+                <div id="${collapseId}" class="collapse ${isExpanded ? 'show' : ''}" aria-labelledby="${headingId}">
+                    <div class="file-list">
+                        ${matchedFiles.map(f => `
+                            <a href="${f.link}" target="_blank" rel="noopener noreferrer" class="file-item">
+                                <span class="file-icon-wrap ${(f.file_type || '').toLowerCase()}">
+                                    <i class="bi ${iconFor(f.file_type)}"></i>
+                                </span>
+                                <span class="flex-grow-1">
+                                    <span class="file-title d-block">${f.title}</span>
+                                    <span class="file-topic">${f.topic}</span>
+                                </span>
+                                <span class="file-type-badge">${f.file_type}</span>
+                                <i class="bi bi-box-arrow-up-right file-open-icon"></i>
+                            </a>
+                        `).join('')}
                     </div>
                 </div>
             </div>`;
