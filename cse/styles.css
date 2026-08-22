@@ -1,0 +1,7 @@
+body { background-color: #f5f7fa; }
+.subject-header { cursor: pointer; }
+.file-icon.pdf { color: #dc3545; }
+.file-icon.pptx { color: #d24726; }
+.file-icon.doc, .file-icon.docx { color: #2b579a; }
+.list-group-item:hover { background-color: #f0f4ff; }
+.subject-code-badge { font-size: 0.8rem; }
